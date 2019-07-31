@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Renovation Form</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicons -->
+    <link href="img/favicon.png" rel="icon">
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Philosopher:400,400i,700,700i"
+        rel="stylesheet">
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+    <!-- Bootstrap css -->
+   
+    <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+
+    <!-- Libraries CSS Files -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.theme.default.min.css" rel="stylesheet">
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/modal-video/css/modal-video.min.css" rel="stylesheet">
+    
+    <!-- Main Stylesheet File -->
+    <link href="css/form.css" rel="stylesheet">
+
+
+
+
+<style>
+
+
+
+</style>
+
+
+
+
+</head>
+
+<body>
+
+
+    
+    <div class="container">
+        <h1 class="well">Registration Form</h1>
+        <div class="col-lg-12 well">
+            
+        <div class="row">
+                    <form ng-ap="" action="form.html">
+                        <div class="col-sm-12">
+                            <div class="row">
+                                <div class="col-sm-12 form-group">
+                                    <label>Area</label>
+                                    <input type="text" placeholder="Enter First Name Here.." class="form-control" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 form-group">
+                                    <label>Location</label>
+                                    <div id="map"></div>
+                                </div>
+                            </div>	
+                            <div class="row">
+                                <div class="col-sm-12 form-group">
+                                    <label>Owner Name</label><i style="font-size:14px" class="fa">&#xf059;</i>
+                                    <input type="text" placeholder="Name" class="form-control">
+                                </div>
+
+
+                            </div>
+
+                          
+
+                            
+
+                            <div class="row">
+                                <div class="col-sm-12 form-group">
+                                    <label>Nature Of Ploat</label><i style="font-size:14px" class="fa">&#xf059;</i>
+                                   <select class="form-control">
+                                       <option>INDIVIDUAL</option>
+                                       <option>REGISTER  CO-OP SOCIETY</option>
+                                       <option>NTC ASSOCTION</option>
+                                       <option>PVT LTD CO.</option>
+                                       <option>PARTNERSHIP FARM</option>
+                                   </select>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-6 form-group">
+                                    <label>Registration Number</label><i style="font-size:14px" class="fa">&#xf059;</i>
+                                    <input type="text" placeholder="Enter Registration Number" class="form-control">
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label>Upload registration Document</label>
+                                    <input type="file" class="form-control">
+                                </div>
+                            </div>
+
+
+
+                            <div class="row">
+                                <div class="col-sm-4 form-group">
+                                    <label>T.P Scheme</label>
+                                    <input type="text" placeholder="Enter City Name Here.." class="form-control">
+                                </div>	
+                                <div class="col-sm-4 form-group">
+                                    <label>F.P Number</label>
+                                    <input type="text" placeholder="Enter State Name Here.." class="form-control">
+                                </div>	
+                                <div class="col-sm-4 form-group">
+                                    <label>Sub plot No.</label>
+                                    <input type="text" placeholder="Enter Zip Code Here.." class="form-control">
+                                </div>		
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-8 form-group" >
+                                    <label>Area of Plot</label>
+                                    <input type="text" placeholder="Enter Area of Plot" class="form-control">
+                                </div>
+                                <div class="col-sm-4 form-group">
+                                    <label>Select</label>
+                                        <select class="form-control">
+                                                <option>SQURE-FOOT</option>
+                                                <option>SQURE-YARD</option>
+                                                <option>SQURE-METER</option>
+                                                
+                                            </select>
+                                </div>  
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-sm-12 form-group">
+                                    <label>Number of Roads adjaces to the Roads</label>
+                                    <select class="form-control" ngmodel="myRoad">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div ng-switch="myRoad">
+                            <div class="row"  ng-switch-when=1>
+                                <div class="col-sm-8 col-xs-8 form-group">
+                                    <label>width</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="col-sm-4 col-xs-4 form-group">
+                                        <label>To</label>
+                                        <select class="form-control">
+                                            <option>S</option>
+                                            <option>E</option>
+                                            <option>W</option>
+                                            <option>N</option>
+                                        </select>
+                                    </div>
+                            </div>
+
+                            <div class="row"  ng-switch-when=2>
+                                    <div class="col-sm-8 col-xs-8 form-group">
+                                        <label>width</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4 form-group">
+                                            <label>To</label>
+                                            <select class="form-control">
+                                                <option>S</option>
+                                                <option>E</option>
+                                                <option>W</option>
+                                                <option>N</option>
+                                            </select>
+                                     </div>
+
+                                     <div class="col-sm-8 col-xs-8 form-group">
+                                            <label>width</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="col-sm-4 col-xs-4 form-group">
+                                                <label>To</label>
+                                                <select class="form-control">
+                                                    <option>S</option>
+                                                    <option>E</option>
+                                                    <option>W</option>
+                                                    <option>N</option>
+                                                </select>
+                                         </div>
+                            </div>
+
+
+
+                                <div class="row">
+                                    <div class="col-sm-6 col-xs-8 form-group">
+                                        <label>Zoning Certificate</label>  
+                                        <select class="form-control">
+                                            <option>R1</option>
+                                            <option>R2</option>
+                                            <option>R3</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-sm-6 col-xs-4 form-group">
+                                            <label>Upload </label>  
+                                        <input type="file" class="form-control">
+                                    </div>
+                                </div>
+
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12  form-group">
+                                        <label>Benifit form</label>
+                                    <select class="form-control">
+                                        <option>BRTS</option>
+                                        <option>METRO</option>
+                                        <option>CBD</option>
+                                    </select>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                        <div class="col-sm-12  form-group">
+                                            <label>Nature Of Plot</label>
+                                        <select class="form-control">
+                                            <option>Final Plot</option>
+                                            <option>Sub Pott</option>
+                                           
+                                        </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                            <div class="col-sm-12 form-group">
+                                                <label>Any deduction of margin in F.P</label>
+                                                
+                                            YES<input type="checkbox" ng-model="mycheck">  No<input type="checkbox">
+                                            </div>
+                                           
+                                        </div>
+                                        <div class="row">
+                                                <div class="col-sm-12 form-group">
+                                                    <label>How much</label>
+                                               <input type="text" class="form-control" ng-show="mycheck">
+                                                </div>
+                                               
+                                        </div>
+
+                                        <div class="row">
+                                                <div class="col-sm-4 form-group">
+                                                    <label>Upload plot layout with</label>
+                                               
+                                                </div>
+                                                <div class="col-sm-4 form-group">
+                                                        <label>all side measurment</label>
+                                                   <input type="file" class="form-control">
+                                                    </div>
+                                                    <div class="col-sm-4 form-group">
+                                                            <label>diagonal to calculate</label>
+                                                       <input type="file" class="form-control">
+                                                        </div>
+                                               
+                                        </div>
+
+                                        <div class="row">
+                                               
+                                                <div class="col-sm-4 form-group">
+                                                        <label>Total Number of members</label>
+                                                   <input type="text" class="form-control">
+                                                    </div>
+                                                    <div class="col-sm-4 form-group">
+                                                            <label>Number of plot members</label>
+                                                       <input type="text" class="form-control">
+                                                        </div>
+                                                        <div class="col-sm-4 form-group">
+                                                            <label>Verity of Plot Exepcted</label>
+                                                       <input type="text" class="form-control">
+                                                        </div>
+                                               
+                                        </div>
+    
+                                        <div class="row">
+                                               
+                                            <div class="col-sm-3  col-xs-3 form-group">
+                                                    <label>Plot No</label>
+                                               <select class="form-control">
+                                                   <option>1</option>
+                                                   <option>2</option>
+                                                   <option>3</option>
+                                                   <option>4</option>
+                                                   <option>5</option>
+                                                   <option>6</option>
+                                                   <option>7</option>
+                                                   <option>8</option>
+                                                   <option>9</option>
+                                                   <option>10</option>
+                                                   <option>11</option>
+                                                   <option>12</option>
+                                               </select>
+                                                </div>
+                                                <div class="col-sm-3 col-xs-3 form-group">
+                                                        <label>No Of Unit</label>
+                                                   <input type="text" class="form-control">
+                                                    </div>
+                                                    <div class="col-sm-3 col-xs-3 form-group">
+                                                        <label>Area</label>
+                                                   <input type="text" class="form-control">
+                                                    </div>
+                                                    <div class="col-sm-3 col-xs-3 form-group">
+                                                        <label>In</label>
+                                                  <select class="form-control">
+                                                      <option>Squreyard</option>
+                                                      <option>Squreyard</option>
+                                                      <option>Squreyard</option>
+                                                  </select>
+                                                    </div>
+                                           
+                                    </div>
+
+                                        <div class="row">
+                                            <div class="col-sm-3 col-xs-3 form-group">
+                                            <label>Rent Expected</label>
+                                            </div>
+                                            <div class="col-sm-3 col-xs-3 form-group">
+                                                <label>Plot No</label>
+                                                <select class="form-control">
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                    <option>6</option>
+                                                    <option>7</option>
+                                                    <option>8</option>
+                                                    <option>9</option>
+                                                    <option>10</option>
+                                                    <option>11</option>
+                                                    <option>12</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-sm-3 col-xs-3 form-group">
+                                                <label>Unit</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            <div class="col-sm-3 col-xs-3 form-group">
+                                                <label>Amount</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="form-group">
+                                            <label>Any Other Requirment</label>
+                                            <textarea placeholder="Enter text" rows="3" class="form-control"></textarea>
+                                        </div>	
+
+                            <div class="row">
+                                <div class="col-sm-3 col-xs-3 form-group">
+                                    <label>compation Expected</label>
+                                    </div>
+                                    <div class="col-sm-3 col-xs-3 form-group">
+                                        <label>Plot No</label>
+                                        <select class="form-control">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                            <option>6</option>
+                                            <option>7</option>
+                                            <option>8</option>
+                                            <option>9</option>
+                                            <option>10</option>
+                                            <option>11</option>
+                                            <option>12</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-sm-3 col-xs-3 form-group">
+                                        <label>Unit</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="col-sm-3 col-xs-3 form-group">
+                                        <label>Amount</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group">
+                                    <label>Any Other Requirment</label>
+                                    <textarea placeholder="Enter text" rows="5" class="form-control"></textarea>
+                                </div>	
+
+                        
+                    </form> 
+
+
+
+                   
+   
+    
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: -25.344, lng: 131.036};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+    <!--Load the API from the specified URL
+    * The async attribute allows the browser to render the page while the API loads
+    * The key parameter will contain your own API key (which is not needed for this tutorial)
+    * The callback parameter executes the initMap() function
+    -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmrop_g-j7iGM_FvAB6l5hIuwOQ4rFZiQ&callback=initMap">
+    </script>
+                    </div>
+        </div>
+        </div>
+</body>
+
+
+ <!--  <ss="back-to-top"><i class="fa fa-chevron-up"></i></a> -->
+
+    <!-- JavaScript Libraries -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/superfish/hoverIntent.js"></script>
+    <script src="lib/superfish/superfish.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/modal-video/js/modal-video.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <!-- Contact Form JavaScript File -->
+    <script src="contactform/contactform.js"></script>
+
+    <!-- Template Main Javascript File -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
+
+
+
+</body>
